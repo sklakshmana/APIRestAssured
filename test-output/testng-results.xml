@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9773" started-at="2021-02-01T04:03:55Z" finished-at="2021-02-01T04:04:04Z">
+  <suite name="Suite" duration-ms="11104" started-at="2021-02-01T05:04:00Z" finished-at="2021-02-01T05:04:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9773" started-at="2021-02-01T04:03:55Z" finished-at="2021-02-01T04:04:04Z">
+    <test name="Test" duration-ms="11104" started-at="2021-02-01T05:04:00Z" finished-at="2021-02-01T05:04:11Z">
       <class name="com.api.testCases">
-        <test-method status="PASS" signature="addnewUser()[pri:0, instance:com.api.testCases@e26948]" name="addnewUser" duration-ms="8096" started-at="2021-02-01T04:03:55Z" finished-at="2021-02-01T04:04:03Z">
+        <test-method status="PASS" signature="addnewUser()[pri:0, instance:com.api.testCases@e26948]" name="addnewUser" duration-ms="9560" started-at="2021-02-01T05:04:00Z" finished-at="2021-02-01T05:04:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addnewUser -->
-        <test-method status="PASS" signature="testGetUsers()[pri:0, instance:com.api.testCases@e26948]" name="testGetUsers" duration-ms="1476" started-at="2021-02-01T04:04:03Z" finished-at="2021-02-01T04:04:04Z">
+        <test-method status="PASS" signature="testGetUsers()[pri:0, instance:com.api.testCases@e26948]" name="testGetUsers" duration-ms="1479" started-at="2021-02-01T05:04:09Z" finished-at="2021-02-01T05:04:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsers -->
       </class> <!-- com.api.testCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

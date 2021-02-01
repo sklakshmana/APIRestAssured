@@ -153,8 +153,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; name=&quot;Test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.api.testCases&quot;/&gt;
     &lt;/classes&gt;
@@ -200,16 +200,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addnewUser')
 data.setCell(0, 2, 'com.api.testCases')
-data.setCell(0, 3, 9560);
+data.setCell(0, 3, 5316);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testGetUsers')
 data.setCell(1, 2, 'com.api.testCases')
-data.setCell(1, 3, 1479);
+data.setCell(1, 3, 1046);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -242,7 +242,7 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUsers</span>
-                <span class="method-start">9565 ms</span>
+                <span class="method-start">5318 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
