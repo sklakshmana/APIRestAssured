@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11104" started-at="2021-02-01T05:04:00Z" finished-at="2021-02-01T05:04:11Z">
+  <suite name="Default suite" duration-ms="8168" started-at="2021-02-01T08:50:31Z" finished-at="2021-02-01T08:50:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11104" started-at="2021-02-01T05:04:00Z" finished-at="2021-02-01T05:04:11Z">
+    <test name="Default test" duration-ms="8168" started-at="2021-02-01T08:50:31Z" finished-at="2021-02-01T08:50:39Z">
       <class name="com.api.testCases">
-        <test-method status="PASS" signature="addnewUser()[pri:0, instance:com.api.testCases@e26948]" name="addnewUser" duration-ms="9560" started-at="2021-02-01T05:04:00Z" finished-at="2021-02-01T05:04:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addnewUser -->
-        <test-method status="PASS" signature="testGetUsers()[pri:0, instance:com.api.testCases@e26948]" name="testGetUsers" duration-ms="1479" started-at="2021-02-01T05:04:09Z" finished-at="2021-02-01T05:04:11Z">
+        <test-method status="PASS" signature="testGetUsers()[pri:1, instance:com.api.testCases@6ba0ac]" name="testGetUsers" duration-ms="5476" started-at="2021-02-01T08:50:31Z" finished-at="2021-02-01T08:50:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsers -->
+        <test-method status="PASS" signature="addnewUser()[pri:2, instance:com.api.testCases@6ba0ac]" name="addnewUser" duration-ms="1363" started-at="2021-02-01T08:50:36Z" finished-at="2021-02-01T08:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewUser -->
+        <test-method status="PASS" signature="getUser()[pri:3, instance:com.api.testCases@6ba0ac]" name="getUser" duration-ms="444" started-at="2021-02-01T08:50:38Z" finished-at="2021-02-01T08:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="testDelete()[pri:4, instance:com.api.testCases@6ba0ac]" name="testDelete" duration-ms="785" started-at="2021-02-01T08:50:38Z" finished-at="2021-02-01T08:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
       </class> <!-- com.api.testCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
