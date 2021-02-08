@@ -1,2 +1,2 @@
-F:\Automation\workspace\APIRestAssured
+cd F:\Automation\workspace\APIRestAssured
 mvn clean install

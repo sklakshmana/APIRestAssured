@@ -9,13 +9,16 @@ import java.util.HashMap;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
+import com.util1.ExtentReporting;
+
 import io.restassured.response.Response;
 
-public class testCases {
+public class testCases extends ExtentReporting{
 	
 	@Test(priority=1)
 	public void testGetUsers()
 	{
+		logger=report.createTest("API testing");
 		given()
 			.auth().none()
 			.param("page", "2")
@@ -27,7 +30,7 @@ public class testCases {
 			.body("page", equalTo(2))
 			.body("per_page", equalTo(6)); 
 		
-		
+		logger.pass("testGetUsers Success");
 		/*Response res= given()
 			.auth().none()
 			.param("page", "2")
@@ -48,7 +51,7 @@ public class testCases {
 		//JSONObject request=new JSONObject();
 
 		data.put("name", "Lakshman");
-		data.put("job", "Teacher");
+		data.put("job", "Engineer");
 		
 		
 		//Response res=
@@ -64,6 +67,7 @@ public class testCases {
 		//	.extract().response();
 		
 		//res.prettyPrint();
+		logger.fail("addnewUser Failed");
 			
 		}
 	

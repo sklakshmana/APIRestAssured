@@ -2,28 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8168" started-at="2021-02-01T08:50:31Z" finished-at="2021-02-01T08:50:39Z">
+  <suite name="Suite" duration-ms="8076" started-at="2021-02-08T05:57:53Z" finished-at="2021-02-08T05:58:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8168" started-at="2021-02-01T08:50:31Z" finished-at="2021-02-01T08:50:39Z">
+    <test name="Test" duration-ms="8076" started-at="2021-02-08T05:57:53Z" finished-at="2021-02-08T05:58:01Z">
       <class name="com.api.testCases">
-        <test-method status="PASS" signature="testGetUsers()[pri:1, instance:com.api.testCases@6ba0ac]" name="testGetUsers" duration-ms="5476" started-at="2021-02-01T08:50:31Z" finished-at="2021-02-01T08:50:36Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.api.testCases@85bdee]" name="setUpSuite" is-config="true" duration-ms="328" started-at="2021-02-08T05:57:53Z" finished-at="2021-02-08T05:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="testGetUsers()[pri:1, instance:com.api.testCases@85bdee]" name="testGetUsers" duration-ms="4956" started-at="2021-02-08T05:57:53Z" finished-at="2021-02-08T05:57:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsers -->
-        <test-method status="PASS" signature="addnewUser()[pri:2, instance:com.api.testCases@6ba0ac]" name="addnewUser" duration-ms="1363" started-at="2021-02-01T08:50:36Z" finished-at="2021-02-01T08:50:38Z">
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:com.api.testCases@85bdee]" name="tearDownMethod" is-config="true" duration-ms="467" started-at="2021-02-08T05:57:58Z" finished-at="2021-02-08T05:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="addnewUser()[pri:2, instance:com.api.testCases@85bdee]" name="addnewUser" duration-ms="1244" started-at="2021-02-08T05:57:59Z" finished-at="2021-02-08T05:58:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addnewUser -->
-        <test-method status="PASS" signature="getUser()[pri:3, instance:com.api.testCases@6ba0ac]" name="getUser" duration-ms="444" started-at="2021-02-01T08:50:38Z" finished-at="2021-02-01T08:50:38Z">
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:com.api.testCases@85bdee]" name="tearDownMethod" is-config="true" duration-ms="78" started-at="2021-02-08T05:58:00Z" finished-at="2021-02-08T05:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="getUser()[pri:3, instance:com.api.testCases@85bdee]" name="getUser" duration-ms="319" started-at="2021-02-08T05:58:00Z" finished-at="2021-02-08T05:58:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUser -->
-        <test-method status="PASS" signature="testDelete()[pri:4, instance:com.api.testCases@6ba0ac]" name="testDelete" duration-ms="785" started-at="2021-02-01T08:50:38Z" finished-at="2021-02-01T08:50:39Z">
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:com.api.testCases@85bdee]" name="tearDownMethod" is-config="true" duration-ms="68" started-at="2021-02-08T05:58:00Z" finished-at="2021-02-08T05:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:4, instance:com.api.testCases@85bdee]" name="testDelete" duration-ms="803" started-at="2021-02-08T05:58:00Z" finished-at="2021-02-08T05:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:com.api.testCases@85bdee]" name="tearDownMethod" is-config="true" duration-ms="88" started-at="2021-02-08T05:58:01Z" finished-at="2021-02-08T05:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
       </class> <!-- com.api.testCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
